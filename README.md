@@ -66,6 +66,7 @@ add(20)
 #### 1. Regression Tables  
 **Please note:**  
 - Standard errors are in paranthesis following the coefficient.  
+- p-values are calculated using a two-tailed test.  
 - p-value indicators of all regression tables are as follows:  
 ```
   * p < 0.05
