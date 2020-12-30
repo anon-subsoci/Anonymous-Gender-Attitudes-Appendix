@@ -38,6 +38,9 @@
 	c. [Gender Role Attitudes Question Phrasing](#c-gender-roles-attitudes-question-phrasing)  
 	d. [Family Responsibilities Attitudes Question Phrasing](#d-family-responsibilities-attitudes-question-phrasing)  
 
+4. [Code Documentation](#4-code-documentation)  
+	a. [Process Flow Diagram](#a-process-flow-diagram)  
+	b. [Code Contents](#b-code-contents)  
 <hr>
 
 #### 0. Notes, Software, and Dependencies
@@ -56,10 +59,6 @@ rseed(1234)
 ```
 add(20)
 ```   
-9. To aid in replicating the data shared in this study and repository, a process flow diagram beginning with GSS Data and ending with regression tables/attitude summarizations is provided below:  
-##### Process Flow Diagram
-
-![Process_Flow](./assets/process_flow_diagram.png)
 
 <hr>
 
@@ -215,3 +214,33 @@ Now I'm going to read several more statements. As I read each one, please tell m
 
 3. It is much better for everyone involved if the man is the achiever outside the home and the woman takes care of the home and family. (**GSS Variable:** [fefam](https://gssdataexplorer.norc.org/variables/706/vshow))  
 
+#### 4. Code Documentation  
+
+##### a. Process flow diagram  
+To aid in replicating the data shared in this study and repository, a process flow diagram beginning with GSS Data and ending with regression tables/attitude summarizations is provided below:   
+
+![Process_Flow](./assets/process_flow_diagram.png)  
+
+##### b. Code Contents
+
+1. Selected GSS variables for this study are found here: [RAW_GSS_SELECTED_VARIABLES.dta](./do/RAW_GSS_SELECTED_VARIABLES.dta)  
+
+2. Code to filter the [selected GSS variables](./do/RAW_GSS_SELECTED_VARIABLES.dta) and generate attitude scales are found here: [1_variable_filter.do](./do/1_variable_filter.do)  
+
+3. [The variable filter](./do/1_variable_filter.do) outputs filtered/processed variables here: [ALL_FINAL_VARIABLES_PROCESSED.dta](./do/ALL_FINAL_VARIABLES_PROCESSED.dta)  
+
+4. To impute missing data in the [processed dataset](./do/ALL_FINAL_VARIABLES_PROCESSED.dta), execute the multiple imputation code, found here: [2_multiple_imputation_data_creation.do](./do/2_multiple_imputation_data_creation.do)  
+
+5. [The imputation code](./do/2_multiple_imputation_data_creation.do) outputs an imputed dataset for each independent variable:
+	- [abscale_multiple_imputation.dta](./mi_results_and_regressions/abscale_multiple_imputation.dta)  
+	- [sexatt_multiple_imputation.dta](./mi_results_and_regressions/sexatt_multiple_imputation.dta)  
+	- [genrole_multiple_imputation.dta](./mi_results_and_regressions/genrole_multiple_imputation.dta)  
+	- [famresp_multiple_imputation.dta](./mi_results_and_regressions/famresp_multiple_imputation.dta)  
+
+6. Regression models are computed using the [imputed datasets](./mi_results_and_regressions). The following regression computations available are:  
+	- [Bivariate Regression](./mi_results_and_regressions/bivariate_regression.do)  
+	- [Multivariate Regression](./mi_results_and_regressions/multivariate_regression.do)  
+	- [Ordinal Logistic Regression](./mi_results_and_regressions/ologit_regression.do)  
+
+7. Summary data is generated using the [non-imputed dataset](./do/ALL_FINAL_VARIABLES_PROCESSED.dta), code found here: [3_generate_attitude_summarizations.do](./do/3_generate_attitude_summarizations.do)  
+8. ```.do``` files output ```.log``` files in the the same directory in which the ```.do``` file is executed. 
