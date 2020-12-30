@@ -41,6 +41,8 @@
 4. [Code Documentation](#4-code-documentation)  
 	a. [Process Flow Diagram](#a-process-flow-diagram)  
 	b. [Code Contents](#b-code-contents)  
+
+5. [Extended Bibliography](#5-extended-bibliography)
 <hr>
 
 #### 0. Notes, Software, and Dependencies
@@ -59,7 +61,7 @@ rseed(1234)
 ```
 add(20)
 ```   
-9. To view the extended bibliography for this paper, please click [here](https://anon-subsoci.github.io/Anonymous-Gender-Attitudes-Appendix/.).
+
 <hr>
 
 #### 1. Regression Tables  
@@ -244,3 +246,7 @@ To aid in replicating the data shared in this study and repository, a process fl
 
 7. Summary data is generated using the [non-imputed dataset](./do/ALL_FINAL_VARIABLES_PROCESSED.dta), code found here: [3_generate_attitude_summarizations.do](./do/3_generate_attitude_summarizations.do)  
 8. ```.do``` files output ```.log``` files in the the same directory in which the ```.do``` file is executed. 
+
+#### 5. Extended Bibliography  
+
+To view the extended bibliography for this paper, please click [here](https://anon-subsoci.github.io/Anonymous-Gender-Attitudes-Appendix/.).  
