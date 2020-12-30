@@ -59,7 +59,7 @@ rseed(1234)
 ```
 add(20)
 ```   
-
+9. To view the extended bibliography for this paper, please click [here](https://anon-subsoci.github.io/Anonymous-Gender-Attitudes-Appendix/.).
 <hr>
 
 #### 1. Regression Tables  
