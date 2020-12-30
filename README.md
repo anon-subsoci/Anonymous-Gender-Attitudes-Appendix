@@ -5,17 +5,17 @@
 0. [Notes, Software, and Dependencies](#0-notes-software-and-dependencies)
 
 1. [Regression Tables](#1-regression-tables)  
-	a. [Multivariate Regression Tables](#A-multivariate-regression-tables)  
+	a. [Multivariate Regression Tables](#a-multivariate-regression-tables---interactive-tables-made-available-here)  
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. [Abortion Attitudes Multivariate Regression](#i-abortion-attitudes-multivariate-regression)  
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. [Sexual Behavior Attitudes Multivariate Regression](#ii-sexual-behavior-attitudes-multivariate-regression)  
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iii. [Gender Roles Attitudes Multivariate Regression](#iii-gender-roles-attitudes-multivariate-regression)    
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv. [Family Responsibilities Attitudes Multivariate Regression](#iv-family-responsibilities-attitudes-multivariate-regression)    
-	b. [Ordinal Logistic Regression Tables](#b-ordinal-logistic-regression-tables)  
+	b. [Ordinal Logistic Regression Tables](#b-ordinal-logistic-regression-tables---interactive-tables-made-available-here)  
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. [Abortion Attitudes Ordinal Logistic Regression](#i-abortion-attitudes-ordinal-logistic-regression)  
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. [Sexual Behavior Attitudes Ordinal Logistic Regression](#ii-sexual-behavior-attitudes-ordinal-logistic-regression)  
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iii. [Gender Roles Attitudes Ordinal Logistic Regression](#iii-gender-roles-attitudes-ordinal-logistic-regression)  
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv. [Family Responsibilities Attitudes Ordinal Logistic Regression](#iv-family-responsibilities-attitudes-ordinal-logistic-regression)  
-	c. [Bivariate Regression Tables](#c-bivariate-regression-tables)  
+	c. [Bivariate Regression Tables](#c-bivariate-regression-tables---interactive-tables-made-available-here)  
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. [Abortion Attitudes Bivariate Regression](#i-abortion-attitudes-bivariate-regression)  
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. [Sexual Behavior Attitudes Bivariate Regression](#ii-sexual-behavior-attitudes-bivariate-regression)  
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iii. [Gender Roles Attitudes Bivariate Regression](#iii-gender-roles-attitudes-bivariate-regression)  
@@ -223,24 +223,24 @@ To aid in replicating the data shared in this study and repository, a process fl
 
 ##### b. Code Contents
 
-1. Selected GSS variables for this study are found here: [RAW_GSS_SELECTED_VARIABLES.dta](./do/RAW_GSS_SELECTED_VARIABLES.dta)  
+1. Selected GSS variables for this study are found here: [RAW_GSS_SELECTED_VARIABLES.dta](./do/RAW_GSS_DATA_SELECTED_VARIABLES.dta)  
 
-2. Code to filter the [selected GSS variables](./do/RAW_GSS_SELECTED_VARIABLES.dta) and generate attitude scales are found here: [1_variable_filter.do](./do/1_variable_filter.do)  
+2. Code to filter the [selected GSS variables](./do/RAW_GSS_DATA_SELECTED_VARIABLES.dta) and generate attitude scales are found here: [1_variable_filter.do](./do/1_variable_filter.do)  
 
 3. [The variable filter](./do/1_variable_filter.do) outputs filtered/processed variables here: [ALL_FINAL_VARIABLES_PROCESSED.dta](./do/ALL_FINAL_VARIABLES_PROCESSED.dta)  
 
 4. To impute missing data in the [processed dataset](./do/ALL_FINAL_VARIABLES_PROCESSED.dta), execute the multiple imputation code, found here: [2_multiple_imputation_data_creation.do](./do/2_multiple_imputation_data_creation.do)  
 
 5. [The imputation code](./do/2_multiple_imputation_data_creation.do) outputs an imputed dataset for each independent variable:
-	- [abscale_multiple_imputation.dta](./mi_results_and_regressions/abscale_multiple_imputation.dta)  
-	- [sexatt_multiple_imputation.dta](./mi_results_and_regressions/sexatt_multiple_imputation.dta)  
-	- [genrole_multiple_imputation.dta](./mi_results_and_regressions/genrole_multiple_imputation.dta)  
-	- [famresp_multiple_imputation.dta](./mi_results_and_regressions/famresp_multiple_imputation.dta)  
+	- [abscale_multiple_imputation.dta](./do/mi_results_and_regressions/abscale_multiple_imputation.dta)  
+	- [sexatt_multiple_imputation.dta](./do/mi_results_and_regressions/sexatt_multiple_imputation.dta)  
+	- [genrole_multiple_imputation.dta](./do/mi_results_and_regressions/genrole_multiple_imputation.dta)  
+	- [famresp_multiple_imputation.dta](./do/mi_results_and_regressions/famresp_multiple_imputation.dta)  
 
-6. Regression models are computed using the [imputed datasets](./mi_results_and_regressions). The following regression computations available are:  
-	- [Bivariate Regression](./mi_results_and_regressions/bivariate_regression.do)  
-	- [Multivariate Regression](./mi_results_and_regressions/multivariate_regression.do)  
-	- [Ordinal Logistic Regression](./mi_results_and_regressions/ologit_regression.do)  
+6. Regression models are computed using the [imputed datasets](./do/mi_results_and_regressions). The following regression computations available are:  
+	- [Bivariate Regression](./do/mi_results_and_regressions/bivariate_regression.do)  
+	- [Multivariate Regression](./do/mi_results_and_regressions/multivariate_regression.do)  
+	- [Ordinal Logistic Regression](./do/mi_results_and_regressions/ologit_regression.do)  
 
 7. Summary data is generated using the [non-imputed dataset](./do/ALL_FINAL_VARIABLES_PROCESSED.dta), code found here: [3_generate_attitude_summarizations.do](./do/3_generate_attitude_summarizations.do)  
 8. ```.do``` files output ```.log``` files in the the same directory in which the ```.do``` file is executed. 
