@@ -25,8 +25,8 @@
 2. [Gender Attitudes Over Time by Political Preference](#2-gender-attitudes-over-time-by-political-preference)  
 	a. [Mean Abortion Attitudes by Political Preference](#a-mean-abortion-attitudes-by-political-preference)  
 	b. [Standard Deviation of Abortion Attitudes by Political Preference](#b-standard-deviation-of-abortion-attitudes-by-political-preference)  
-	c. [Mean Sexual Behavior by Political Preference](#c-mean-sexual-behavior-by-political-preference)  
-	d. [Standard Deviation of Sexual Behavior by Political Preference](#d-standard-deviation-of-sexual-behavior-by-political-preference)  
+	c. [Mean Sexual Behavior Attitudes by Political Preference](#c-mean-sexual-behavior-attitudes-by-political-preference)  
+	d. [Standard Deviation of Sexual Behavior by Political Preference](#d-standard-deviation-of-sexual-behavior-attitudes-by-political-preference)  
 	e. [Mean Gender Role Attitudes by Political Preference](#e-mean-gender-role-attitudes-by-political-preference)  
 	f. [Standard Deviation of Gender Role Attitudes by Political Preference](#f-standard-deviation-of-gender-role-attitudes-by-political-preference)  
 	g. [Mean Family Responsibilities Attitudes by Political Preference](#g-mean-family-responsibilities-attitudes-by-political-preference)  
@@ -35,12 +35,12 @@
 3. [Gender Attitudes Over Time by Race](#3-gender-attitudes-over-time-by-race)  
 	a. [Mean Abortion Attitudes by Race](#a-mean-abortion-attitudes-by-race)  
 	b. [Standard Deviation of Abortion Attitudes by Race](#b-standard-deviation-of-abortion-attitudes-by-race)  
-	c. [Mean Gender Role Attitudes by Race](#c-mean-gender-role-attitudes-by-race)  
-	d. [Standard Deviation of Gender Role Attitudes by Race](#d-standard-deviation-of-gender-role-attitudes-by-race)  
-	e. [Mean Family Responsibilities Attitudes by Race](#e-mean-family-responsibilities-attitudes-by-race)  
-	f. [Standard Deviation of Family Responsibilities by Race](#f-standard-deviation-of-family-responsibilities-by-race)  
-	g. [Mean Sexual Behavior by Race](#g-mean-sexual-behavior-by-race)  
-	h. [Standard Deviation of Sexual Behavior by Race](#h-standard-deviation-of-sexual-behavior-by-race)  
+	c. [Mean Sexual Behavior Attitudes by Race](#c-mean-sexual-behavior-attitudes-by-race)  
+	d. [Standard Deviation of Sexual Behavior Attitudes by Race](#d-standard-deviation-of-sexual-behavior-attitudes-by-race)  
+	e. [Mean Gender Role Attitudes by Race](#e-mean-gender-role-attitudes-by-race)  
+	f. [Standard Deviation of Gender Role Attitudes by Race](#f-standard-deviation-of-gender-role-attitudes-by-race)  
+	g. [Mean Family Responsibilities Attitudes by Race](#g-mean-family-responsibilities-attitudes-by-race)  
+	h. [Standard Deviation of Family Responsibilities by Race](#h-standard-deviation-of-family-responsibilities-by-race)   
 
 4. [Dependent Variable Question Phrasing](#4-dependent-variable-question-phrasing)  
 	a. [Abortion Attitudes Question Phrasing](#a-abortion-attitudes-question-phrasing)  
@@ -160,11 +160,11 @@ Interactive data and charts made available [here](./demonstratives/Gender_Attitu
 ![SD_Abortion_Att](./assets/sd_abortion_attitudes_political_pref.png)  
 
 
-##### c. Mean Sexual Behavior by Political Preference  
+##### c. Mean Sexual Behavior Attitudes by Political Preference  
 ![Sexatt_Att](./assets/mean_sexual_behavior_attitudes_political_pref.png)  
 
 
-##### d. Standard Deviation of Sexual Behavior by Political Preference  
+##### d. Standard Deviation of Sexual Behavior Attitudes by Political Preference  
 ![SD_Sexatt_Att](./assets/sd_sexual_behavior_attitudes_political_pref.png)  
 
 
@@ -199,11 +199,11 @@ Interactive data and charts made available [here](./demonstratives/Gender_Attitu
 ![SD_Abortion_Att_R](./assets/sd_abortion_attitudes_race.png)  
 
 
-##### c. Mean Sexual Behavior by Race  
+##### c. Mean Sexual Behavior Attitudes by Race  
 ![Sexatt_Att_R](./assets/mean_sexual_behavior_attitudes_race.png)  
 
 
-##### d. Standard Deviation of Sexual Behavior by Race  
+##### d. Standard Deviation of Sexual Behavior Attitudes by Race  
 ![SD_Sexatt_Att_R](./assets/sd_sexual_behavior_attitudes_race.png)  
 
 
