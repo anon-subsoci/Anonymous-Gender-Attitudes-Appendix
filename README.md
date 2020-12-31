@@ -22,16 +22,16 @@
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iv. [Family Responsibilities Attitudes Bivariate Regression](#iv-family-responsibilities-attitudes-bivariate-regression)  
 
 
-2. [Gender Attitudes Over Time by Political Preference](#2-gender-attitudes-over-time-by-political-preference)  
-	a. [Mean Abortion Attitudes by Political Preference](#a-mean-abortion-attitudes-by-political-preference)  
-	b. [Standard Deviation of Abortion Attitudes by Political Preference](#b-standard-deviation-of-abortion-attitudes-by-political-preference)  
-	c. [Mean Gender Role Attitudes by Political Preference](#c-mean-gender-role-attitudes-by-political-preference)  
-	d. [Standard Deviation of Gender Role Attitudes by Political Preference](#d-standard-deviation-of-gender-role-attitudes-by-political-preference)  
-	e. [Mean Family Responsibilities Attitudes by Political Preference](#e-mean-family-responsibilities-attitudes-by-political-preference)  
-	f. [Standard Deviation of Family Responsibilities by Political Preference](#f-standard-deviation-of-family-responsibilities-by-political-preference)  
-	g. [Mean Sexual Behavior by Political Preference](#g-mean-sexual-behavior-by-political-preference)  
-	h. [Standard Deviation of Sexual Behavior by Political Preference](#h-standard-deviation-of-sexual-behavior-by-political-preference)  
-
+2. [Gender Attitudes Over Time by Race](#2-gender-attitudes-over-time-by-race)  
+	a. [Mean Abortion Attitudes by Race](#a-mean-abortion-attitudes-by-race)  
+	b. [Standard Deviation of Abortion Attitudes by Race](#b-standard-deviation-of-abortion-attitudes-by-race)  
+	c. [Mean Sexual Behavior by Race](#c-mean-sexual-behavior-by-race)  
+	d. [Standard Deviation of Sexual Behavior by Race](#d-standard-deviation-of-sexual-behavior-by-race)  
+	e. [Mean Gender Role Attitudes by Race](#e-mean-gender-role-attitudes-by-race)  
+	f. [Standard Deviation of Gender Role Attitudes by Race](#f-standard-deviation-of-gender-role-attitudes-by-race)  
+	g. [Mean Family Responsibilities Attitudes by Race](#g-mean-family-responsibilities-attitudes-by-race)  
+	h. [Standard Deviation of Family Responsibilities by Race](#h-standard-deviation-of-family-responsibilities-by-race)   
+	
 3. [Gender Attitudes Over Time by Race](#2-gender-attitudes-over-time-by-race)  
 	a. [Mean Abortion Attitudes by Race](#a-mean-abortion-attitudes-by-race)  
 	b. [Standard Deviation of Abortion Attitudes by Race](#b-standard-deviation-of-abortion-attitudes-by-race)  
@@ -76,7 +76,7 @@ add(20)
 
 #### 1. Regression Tables  
 **Please note:**  
-- Standard errors are in paranthesis following the coefficient.  
+- Standard errors are in parantheses following the coefficient.  
 - p-values are calculated using a two-tailed test.  
 - p-value indicators of all regression tables are as follows:  
 ```
@@ -160,28 +160,30 @@ Interactive data and charts made available [here](./demonstratives/Gender_Attitu
 ![SD_Abortion_Att](./assets/sd_abortion_attitudes_political_pref.png)  
 
 
-##### c. Mean Gender Role Attitudes by Political Preference  
-![Genrole_Att](./assets/mean_gender_role_attitudes_political_pref.png)  
-
-
-##### d. Standard Deviation of Gender Role Attitudes by Political Preference  
-![SD_Genrole_Att](./assets/sd_gender_role_attitudes_political_pref.png)    
-
-
-##### e. Mean Family Responsibilities Attitudes by Political Preference  
-![Famresp_Att](./assets/mean_family_responsibilities_attitudes_political_pref.png)  
-
-
-##### f. Standard Deviation of Family Responsibilities by Political Preference  
-![SD_Famresp_Att](./assets/sd_family_responsibilities_attitudes_political_pref.png)  
-
-
-##### g. Mean Sexual Behavior by Political Preference  
+##### c. Mean Sexual Behavior by Political Preference  
 ![Sexatt_Att](./assets/mean_sexual_behavior_attitudes_political_pref.png)  
 
 
-##### h. Standard Deviation of Sexual Behavior by Political Preference  
+##### d. Standard Deviation of Sexual Behavior by Political Preference  
 ![SD_Sexatt_Att](./assets/sd_sexual_behavior_attitudes_political_pref.png)  
+
+
+##### e. Mean Gender Role Attitudes by Political Preference  
+![Genrole_Att](./assets/mean_gender_role_attitudes_political_pref.png)  
+
+
+##### f. Standard Deviation of Gender Role Attitudes by Political Preference  
+![SD_Genrole_Att](./assets/sd_gender_role_attitudes_political_pref.png)    
+
+
+##### g. Mean Family Responsibilities Attitudes by Political Preference  
+![Famresp_Att](./assets/mean_family_responsibilities_attitudes_political_pref.png)  
+
+
+##### h. Standard Deviation of Family Responsibilities by Political Preference  
+![SD_Famresp_Att](./assets/sd_family_responsibilities_attitudes_political_pref.png)  
+
+
 
 <hr>
 
@@ -197,28 +199,28 @@ Interactive data and charts made available [here](./demonstratives/Gender_Attitu
 ![SD_Abortion_Att_R](./assets/sd_abortion_attitudes_race.png)  
 
 
-##### c. Mean Gender Role Attitudes by Race  
-![Genrole_Att_R](./assets/mean_gender_role_attitudes_race.png)  
-
-
-##### d. Standard Deviation of Gender Role Attitudes by Race  
-![SD_Genrole_Att_R](./assets/sd_gender_role_attitudes_race.png)    
-
-
-##### e. Mean Family Responsibilities Attitudes by Race  
-![Famresp_Att_R](./assets/mean_family_responsibilities_attitudes_race.png)  
-
-
-##### f. Standard Deviation of Family Responsibilities by Race  
-![SD_Famresp_Att_R](./assets/sd_family_responsibilities_attitudes_race.png)  
-
-
-##### g. Mean Sexual Behavior by Race  
+##### c. Mean Sexual Behavior by Race  
 ![Sexatt_Att_R](./assets/mean_sexual_behavior_attitudes_race.png)  
 
 
-##### h. Standard Deviation of Sexual Behavior by Race  
+##### d. Standard Deviation of Sexual Behavior by Race  
 ![SD_Sexatt_Att_R](./assets/sd_sexual_behavior_attitudes_race.png)  
+
+
+##### e. Mean Gender Role Attitudes by Race  
+![Genrole_Att_R](./assets/mean_gender_role_attitudes_race.png)  
+
+
+##### f. Standard Deviation of Gender Role Attitudes by Race  
+![SD_Genrole_Att_R](./assets/sd_gender_role_attitudes_race.png)    
+
+
+##### g. Mean Family Responsibilities Attitudes by Race  
+![Famresp_Att_R](./assets/mean_family_responsibilities_attitudes_race.png)  
+
+
+##### h. Standard Deviation of Family Responsibilities by Race  
+![SD_Famresp_Att_R](./assets/sd_family_responsibilities_attitudes_race.png)  
 
 <hr>
 
@@ -263,6 +265,8 @@ Now I'm going to read several more statements. As I read each one, please tell m
 
 3. It is much better for everyone involved if the man is the achiever outside the home and the woman takes care of the home and family. (**GSS Variable:** [fefam](https://gssdataexplorer.norc.org/variables/706/vshow))  
 
+<hr>
+
 #### 5. Code Documentation  
 
 ##### a. Process flow diagram  
@@ -293,6 +297,8 @@ To aid in replicating the data shared in this study and repository, a process fl
 
 7. Summary data is generated using the [non-imputed dataset](./do/ALL_FINAL_VARIABLES_PROCESSED.dta), code found here: [3_generate_attitude_summarizations.do](./do/3_generate_attitude_summarizations.do)  
 8. ```.do``` files output ```.log``` files in the the same directory in which the ```.do``` file is executed. 
+
+<hr>
 
 #### 6. Extended Bibliography  
 
