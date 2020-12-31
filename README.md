@@ -30,7 +30,7 @@
 	e. [Mean Gender Role Attitudes by Political Preference](#e-mean-gender-role-attitudes-by-political-preference)  
 	f. [Standard Deviation of Gender Role Attitudes by Political Preference](#f-standard-deviation-of-gender-role-attitudes-by-political-preference)  
 	g. [Mean Family Responsibilities Attitudes by Political Preference](#g-mean-family-responsibilities-attitudes-by-political-preference)  
-	h. [Standard Deviation of Family Responsibilities by Political Preference](#h-standard-deviation-of-family-responsibilities-by-political-preference)   
+	h. [Standard Deviation of Family Responsibilities Attitudes by Political Preference](#h-standard-deviation-of-family-responsibilities-attitudes-by-political-preference)   
 	
 3. [Gender Attitudes Over Time by Race](#3-gender-attitudes-over-time-by-race)  
 	a. [Mean Abortion Attitudes by Race](#a-mean-abortion-attitudes-by-race)  
@@ -40,7 +40,7 @@
 	e. [Mean Gender Role Attitudes by Race](#e-mean-gender-role-attitudes-by-race)  
 	f. [Standard Deviation of Gender Role Attitudes by Race](#f-standard-deviation-of-gender-role-attitudes-by-race)  
 	g. [Mean Family Responsibilities Attitudes by Race](#g-mean-family-responsibilities-attitudes-by-race)  
-	h. [Standard Deviation of Family Responsibilities by Race](#h-standard-deviation-of-family-responsibilities-by-race)   
+	h. [Standard Deviation of Family Responsibilities Attitudes by Race](#h-standard-deviation-of-family-responsibilities-attitudes-by-race)   
 
 4. [Dependent Variable Question Phrasing](#4-dependent-variable-question-phrasing)  
 	a. [Abortion Attitudes Question Phrasing](#a-abortion-attitudes-question-phrasing)  
@@ -180,7 +180,7 @@ Interactive data and charts made available [here](./demonstratives/Gender_Attitu
 ![Famresp_Att](./assets/mean_family_responsibilities_attitudes_political_pref.png)  
 
 
-##### h. Standard Deviation of Family Responsibilities by Political Preference  
+##### h. Standard Deviation of Family Responsibilities Attitudes by Political Preference  
 ![SD_Famresp_Att](./assets/sd_family_responsibilities_attitudes_political_pref.png)  
 
 
@@ -219,7 +219,7 @@ Interactive data and charts made available [here](./demonstratives/Gender_Attitu
 ![Famresp_Att_R](./assets/mean_family_responsibilities_attitudes_race.png)  
 
 
-##### h. Standard Deviation of Family Responsibilities by Race  
+##### h. Standard Deviation of Family Responsibilities Attitudes by Race  
 ![SD_Famresp_Att_R](./assets/sd_family_responsibilities_attitudes_race.png)  
 
 <hr>
