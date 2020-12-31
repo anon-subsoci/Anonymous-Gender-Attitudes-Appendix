@@ -32,17 +32,27 @@
 	g. [Mean Sexual Behavior by Political Preference](#g-mean-sexual-behavior-by-political-preference)  
 	h. [Standard Deviation of Sexual Behavior by Political Preference](#h-standard-deviation-of-sexual-behavior-by-political-preference)  
 
-3. [Dependent Variable Question Phrasing](#3-dependent-variable-question-phrasing)  
+3. [Gender Attitudes Over Time by Race](#2-gender-attitudes-over-time-by-race)  
+	a. [Mean Abortion Attitudes by Race](#a-mean-abortion-attitudes-by-race)  
+	b. [Standard Deviation of Abortion Attitudes by Race](#b-standard-deviation-of-abortion-attitudes-by-race)  
+	c. [Mean Gender Role Attitudes by Race](#c-mean-gender-role-attitudes-by-race)  
+	d. [Standard Deviation of Gender Role Attitudes by Race](#d-standard-deviation-of-gender-role-attitudes-by-race)  
+	e. [Mean Family Responsibilities Attitudes by Race](#e-mean-family-responsibilities-attitudes-by-race)  
+	f. [Standard Deviation of Family Responsibilities by Race](#f-standard-deviation-of-family-responsibilities-by-race)  
+	g. [Mean Sexual Behavior by Race](#g-mean-sexual-behavior-by-race)  
+	h. [Standard Deviation of Sexual Behavior by Race](#h-standard-deviation-of-sexual-behavior-by-race)  
+
+4. [Dependent Variable Question Phrasing](#4-dependent-variable-question-phrasing)  
 	a. [Abortion Attitudes Question Phrasing](#a-abortion-attitudes-question-phrasing)  
 	b. [Sexual Behavior Attitudes Question Phrasing](#b-sexual-behavior-attitudes-question-phrasing)  
 	c. [Gender Role Attitudes Question Phrasing](#c-gender-roles-attitudes-question-phrasing)  
 	d. [Family Responsibilities Attitudes Question Phrasing](#d-family-responsibilities-attitudes-question-phrasing)  
 
-4. [Code Documentation](#4-code-documentation)  
+5. [Code Documentation](#5-code-documentation)  
 	a. [Process Flow Diagram](#a-process-flow-diagram)  
 	b. [Code Contents](#b-code-contents)  
 
-5. [Extended Bibliography](#5-extended-bibliography)
+6. [Extended Bibliography](#6-extended-bibliography)
 <hr>
 
 #### 0. Notes, Software, and Dependencies
@@ -175,7 +185,44 @@ Interactive data and charts made available [here](./demonstratives/Gender_Attitu
 
 <hr>
 
-#### 3. Dependent Variable Question Phrasing
+#### 3. Gender Attitudes Over Time by Race  
+Interactive data and charts made available [here](./demonstratives/Gender_Attitudes_by_Race.xlsx).  
+
+
+##### a. Mean Abortion Attitudes by Race  
+![Abortion_Att_R](./assets/mean_abortion_attitudes_race.png)  
+
+
+##### b. Standard Deviation of Abortion Attitudes by Race  
+![SD_Abortion_Att_R](./assets/sd_abortion_attitudes_race.png)  
+
+
+##### c. Mean Gender Role Attitudes by Race  
+![Genrole_Att_R](./assets/mean_gender_role_attitudes_race.png)  
+
+
+##### d. Standard Deviation of Gender Role Attitudes by Race  
+![SD_Genrole_Att_R](./assets/sd_gender_role_attitudes_race.png)    
+
+
+##### e. Mean Family Responsibilities Attitudes by Race  
+![Famresp_Att_R](./assets/mean_family_responsibilities_attitudes_race.png)  
+
+
+##### f. Standard Deviation of Family Responsibilities by Race  
+![SD_Famresp_Att_R](./assets/sd_family_responsibilities_attitudes_race.png)  
+
+
+##### g. Mean Sexual Behavior by Race  
+![Sexatt_Att_R](./assets/mean_sexual_behavior_attitudes_race.png)  
+
+
+##### h. Standard Deviation of Sexual Behavior by Race  
+![SD_Sexatt_Att_R](./assets/sd_sexual_behavior_attitudes_race.png)  
+
+<hr>
+
+#### 4. Dependent Variable Question Phrasing
 
 ##### a. Abortion Attitudes Question Phrasing  
 1. Please tell me whether or not you think it should be possible for a pregnant woman to obtain a legal abortion if the family has a very low income and cannot afford any more children? (**GSS Variable:** [abpoor](https://gssdataexplorer.norc.org/variables/604/vshow))  
@@ -216,7 +263,7 @@ Now I'm going to read several more statements. As I read each one, please tell m
 
 3. It is much better for everyone involved if the man is the achiever outside the home and the woman takes care of the home and family. (**GSS Variable:** [fefam](https://gssdataexplorer.norc.org/variables/706/vshow))  
 
-#### 4. Code Documentation  
+#### 5. Code Documentation  
 
 ##### a. Process flow diagram  
 To aid in replicating the data shared in this study and repository, a process flow diagram beginning with GSS Data and ending with regression tables/attitude summarizations is provided below:   
@@ -247,6 +294,6 @@ To aid in replicating the data shared in this study and repository, a process fl
 7. Summary data is generated using the [non-imputed dataset](./do/ALL_FINAL_VARIABLES_PROCESSED.dta), code found here: [3_generate_attitude_summarizations.do](./do/3_generate_attitude_summarizations.do)  
 8. ```.do``` files output ```.log``` files in the the same directory in which the ```.do``` file is executed. 
 
-#### 5. Extended Bibliography  
+#### 6. Extended Bibliography  
 
 To view the extended bibliography for this paper, please click [here](https://anon-subsoci.github.io/Anonymous-Gender-Attitudes-Appendix/.).  
