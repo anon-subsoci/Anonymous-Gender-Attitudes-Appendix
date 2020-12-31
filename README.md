@@ -32,7 +32,7 @@
 	g. [Mean Family Responsibilities Attitudes by Political Preference](#g-mean-family-responsibilities-attitudes-by-political-preference)  
 	h. [Standard Deviation of Family Responsibilities by Political Preference](#h-standard-deviation-of-family-responsibilities-by-political-preference)   
 	
-3. [Gender Attitudes Over Time by Race](#2-gender-attitudes-over-time-by-race)  
+3. [Gender Attitudes Over Time by Race](#3-gender-attitudes-over-time-by-race)  
 	a. [Mean Abortion Attitudes by Race](#a-mean-abortion-attitudes-by-race)  
 	b. [Standard Deviation of Abortion Attitudes by Race](#b-standard-deviation-of-abortion-attitudes-by-race)  
 	c. [Mean Gender Role Attitudes by Race](#c-mean-gender-role-attitudes-by-race)  
