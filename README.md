@@ -71,6 +71,13 @@ rseed(1234)
 ```
 add(20)
 ```   
+9. Trends were tested by t-test comparisons, a simple regression analysis, or in the case of standard deviations:  
+
+      F = s<sub>2</sub><sup>1</sup>/ s<sub>2</sub><sup>2</sup> with N<sub>1</sub>, N<sub>2</sub> *df*.  
+
+10. Differences in coefficients across periods or groups were tested using:   
+
+      ![Coefficient_Differences](./assets/coefficient_diff.png)
 
 <hr>
 
@@ -264,6 +271,37 @@ Now I'm going to read several more statements. As I read each one, please tell m
 2. A preschool child is likely to suffer if his or her mother works. (**GSS Variable:** [fepresch](https://gssdataexplorer.norc.org/variables/705/vshow))  
 
 3. It is much better for everyone involved if the man is the achiever outside the home and the woman takes care of the home and family. (**GSS Variable:** [fefam](https://gssdataexplorer.norc.org/variables/706/vshow))  
+
+<hr>
+
+#### Independent Variable Coding
+
+1. Religions are into 5 categories: Catholic, Jewish, Baptist/Conservative Protestant Sects, None/Other, and Mainline Protestants (Comparison Category).  
+
+2. Race sample sizes and comparability with prior studies led us to code race into two groups: White and All Other (Comparison Category).
+
+3. Following Eric Plutzer (1988), regions are coded into 3 categories: South, Midwest, and North/West (Comparison Category).
+
+
+. Marital status is divided into 4 categories: Married, Never Married, Widowed, and Divorced (Comparison Category).
+
+. Respondent's labor force status is made up of 3 categories: Currently in labor force, has been in labor force but is not currently, and never been in labor force (Comparison Category).
+
+. Respondent's spouse's labor force status is made of up of 3 categories: Spouse is currently in labor force, spouse has been in labor force but is not currently, and spouse has never been in labor force (Comparison Category).
+
+. Proportion of income is calculated by dividing respondent's individual income by respondent's family (household) income.
+
+. Mother's education and education use the number of years respondent's mother and the respondent completed in school, respectively.
+
+. Hours worked weekly uses the number of hours respondent worked last week, and if not available, the number of hours the respondent usually works in a given week.
+
+. Urban/rural locations are coded into 3 categories: All cities and suburbs of the largest Metropolitan Statistical Areas, Counties with towns that have a populatio of 10,000 or more, and all other.
+
+. Number of children uses the number of children respondent has had.
+
+. Age uses respondent's age.
+
+. Political views are coded using a 1 to 7 scale from Extremely Liberal to Extremely Conservative based on respondent's self-identification. 
 
 <hr>
 
