@@ -330,7 +330,7 @@ To aid in replicating the data shared in this study and repository, a process fl
 
 6. Regression models are computed using the [imputed datasets](./do/mi_results_and_regressions). The following regression computations available are:  
 	- [Bivariate Regression](./do/mi_results_and_regressions/bivariate_regression.do)  
-	- [Multivariate Regression](./do/mi_results_and_regressions/multivariate_regression.do)  
+	- [Multivariate Regression](./do/mi_results_and_regressions/multivariate_regression_r2.do)  
 	- [Ordinal Logistic Regression](./do/mi_results_and_regressions/ologit_regression.do)  
 
 7. Summary data is generated using the [non-imputed dataset](./do/ALL_FINAL_VARIABLES_PROCESSED.dta), code found here: [3_generate_attitude_summarizations.do](./do/3_generate_attitude_summarizations.do)  
