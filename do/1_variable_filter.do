@@ -89,6 +89,9 @@ alpha abdefect abnomore abhlth abpoor abrape absingle abany
 * Abortion rescaling to range from 0 to 10
 replace abscale = abscale/.7
 
+* Remove "Depends" response from sexeduc variable
+replace sexeduc = . if sexeduc == 3
+
 * Sexual attitudes scale Cronbach's Alpha reliability test
 alpha sexeduc premarsx teensex homosex xmarsex, std gen(sexatt)
 * Creating sexual attitudes scale
