@@ -282,26 +282,25 @@ Now I'm going to read several more statements. As I read each one, please tell m
 
 3. Following Eric Plutzer (1988), regions are coded into 3 categories: South, Midwest, and North/West (Comparison Category).
 
+4. Marital status is divided into 4 categories: Married, Never Married, Widowed, and Divorced (Comparison Category).
 
-. Marital status is divided into 4 categories: Married, Never Married, Widowed, and Divorced (Comparison Category).
+5. Respondent's labor force status is made up of 3 categories: Currently in labor force, has been in labor force but is not currently, and never been in labor force (Comparison Category).
 
-. Respondent's labor force status is made up of 3 categories: Currently in labor force, has been in labor force but is not currently, and never been in labor force (Comparison Category).
+6. Respondent's spouse's labor force status is made of up of 3 categories: Spouse is currently in labor force, spouse has been in labor force but is not currently, and spouse has never been in labor force (Comparison Category).
 
-. Respondent's spouse's labor force status is made of up of 3 categories: Spouse is currently in labor force, spouse has been in labor force but is not currently, and spouse has never been in labor force (Comparison Category).
+7. Proportion of income is calculated by dividing respondent's individual income by respondent's family (household) income.
 
-. Proportion of income is calculated by dividing respondent's individual income by respondent's family (household) income.
+8. Mother's education and education use the number of years respondent's mother and the respondent completed in school, respectively.
 
-. Mother's education and education use the number of years respondent's mother and the respondent completed in school, respectively.
+9. Hours worked weekly uses the number of hours respondent worked last week, and if not available, the number of hours the respondent usually works in a given week.
 
-. Hours worked weekly uses the number of hours respondent worked last week, and if not available, the number of hours the respondent usually works in a given week.
+10. Urban/rural locations are coded into 3 categories: All cities and suburbs of the largest Metropolitan Statistical Areas, Counties with towns that have a populatio of 10,000 or more, and all other.
 
-. Urban/rural locations are coded into 3 categories: All cities and suburbs of the largest Metropolitan Statistical Areas, Counties with towns that have a populatio of 10,000 or more, and all other.
+11. Number of children uses the number of children respondent has had.
 
-. Number of children uses the number of children respondent has had.
+12. Age uses respondent's age.
 
-. Age uses respondent's age.
-
-. Political views are coded using a 1 to 7 scale from Extremely Liberal to Extremely Conservative based on respondent's self-identification. 
+13. Political views are coded using a 1 to 7 scale from Extremely Liberal to Extremely Conservative based on respondent's self-identification. 
 
 <hr>
 
