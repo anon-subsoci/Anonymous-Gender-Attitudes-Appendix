@@ -48,11 +48,13 @@
 	c. [Gender Role Attitudes Question Phrasing](#c-gender-roles-attitudes-question-phrasing)  
 	d. [Family Responsibilities Attitudes Question Phrasing](#d-family-responsibilities-attitudes-question-phrasing)  
 
-5. [Code Documentation](#5-code-documentation)  
+5. [Independent Variable Coding](#5-independent-variable-coding)
+
+6. [Code Documentation](#6-code-documentation)  
 	a. [Process Flow Diagram](#a-process-flow-diagram)  
 	b. [Code Contents](#b-code-contents)  
 
-6. [Extended Bibliography](#6-extended-bibliography)
+7. [Extended Bibliography](#7-extended-bibliography)
 <hr>
 
 #### 0. Notes, Software, and Dependencies
@@ -274,7 +276,7 @@ Now I'm going to read several more statements. As I read each one, please tell m
 
 <hr>
 
-#### Independent Variable Coding
+#### 5. Independent Variable Coding
 
 1. Religions are into 5 categories: Catholic, Jewish, Baptist/Conservative Protestant Sects, None/Other, and Mainline Protestants (Comparison Category).  
 
@@ -304,7 +306,7 @@ Now I'm going to read several more statements. As I read each one, please tell m
 
 <hr>
 
-#### 5. Code Documentation  
+#### 6. Code Documentation  
 
 ##### a. Process flow diagram  
 To aid in replicating the data shared in this study and repository, a process flow diagram beginning with GSS Data and ending with regression tables/attitude summarizations is provided below:   
@@ -337,6 +339,6 @@ To aid in replicating the data shared in this study and repository, a process fl
 
 <hr>
 
-#### 6. Extended Bibliography  
+#### 7. Extended Bibliography  
 
 To view the extended bibliography for this paper, please click [here](https://anon-subsoci.github.io/Anonymous-Gender-Attitudes-Appendix/.).  
