@@ -55,7 +55,10 @@
 	b. [Code Contents](#b-code-contents)  
 
 7. [Extended Bibliography](#7-extended-bibliography)
+
+8. [Descriptives by Attitude, Gender, and Period](#8-descriptives-by-attitude-gender-and-period)
 <hr>
+
 
 #### 0. Notes, Software, and Dependencies
 
